@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Eszter oldala</title>
-</head>
-<body>
-
+    <head>
+    <title>Eszter oldala</title>
+    </head>
+ <body>
+ 
+    <p>A kollázs képem:</p>
 <h1>Albók Eszter</h1>
 <h2>Albók Eszter</h2>
 <h3>Albók Eszter</h3>
@@ -13,12 +14,7 @@
 <img src="https://i.imgur.com/uOHBJCs.jpeg" alt="Ezen a képen lárható az en kollázsom" width=500>
 <img src="https://i.imgur.com/z958aDn.jpeg" alt="Ezen a képen lárható az en kollázsom" width=500>
 
-
-
-
-<p>A kollázsképem:</p>
-
-</body>
+  </body>
 </html>
 
 
