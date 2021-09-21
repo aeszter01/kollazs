@@ -5,7 +5,7 @@
  <body>
      
 <h1 align= "center">Albók Eszter</h1>
-     <p><B>A kollázs képem:</B></p>
+     <p><U>A kollázs képem:</U></p>
 <img src="https://i.imgur.com/uOHBJCs.jpeg" alt="Ezen a képen lárható az en kollázsom" width=500>
 <img src="https://i.imgur.com/z958aDn.jpeg" alt="Ezen a képen lárható az en kollázsom" width=500>
 
