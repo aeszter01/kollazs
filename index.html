@@ -1,55 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Eszter oldala</title>
-    </head>
-
+    
     <style>
-        th{text-align: center;}
+        body {
+          margin: 0;
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidebar {
+          margin: 0;
+          padding: 0;
+          width: 200px;
+          background-color: #AE90D1;
+          position: fixed;
+          height: 100%;
+          overflow: auto;
+        }
+        
+        .sidebar a {
+          display: block;
+          color: black;
+          padding: 16px;
+          text-decoration: none;
+        }
+         
+        .sidebar a.active {
+          background-color: #774BAA;
+          color: white;
+        }
+        
+        .sidebar a:hover:not(.active) {
+          background-color:#838086 ;
+          color: black;
+        }
+        
+        div.content {
+          margin-left: 200px;
+          padding: 1px 16px;
+          height: 1000px;
+        }
+        
+        @media screen and (max-width: 700px) {
+          .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+          }
+          .sidebar a {float: left;}
+          div.content {margin-left: 0;}
+        }
+        
+        @media screen and (max-width: 400px) {
+          .sidebar a {
+            text-align: center;
+            float: none;
+          }
+        }
+        </style>
 
-    table,td,th{
-        border: 1px gray;
-        border-collapse: collapse;
-    } 
-
-
-    </style>
+</head>
     <body style="background-color: #2B2B2B;">
-
-        <nav align="center">
-            <a href="https://aeszter01.github.io/kollazs/" style="text-decoration: none; color: aqua;"> <b>KOLLÁZS</b> </a> /
-            <a href="https://aeszter01.github.io/kollazs/keplink.html" style="text-decoration: none; color: #8B71CD;"> <b>KÉPLINK</b> </a> /
-            <a href="https://aeszter01.github.io/Kollazs/listak.html" style="text-decoration: none; color:#8B71CD"> <b>lISTÁK</b> </a> /
-            <a href="https://aeszter01.github.io/Kollazs/órarendem.html" style="text-decoration: none; color: #8B71CD;"> <b>ÓRAREND</b> </a>
-        </nav>
-
+    <div class="sidebar">
+            <a class="active" href="https://aeszter01.github.io/kollazs/">KOLLÁZS</a> 
+            <a href="https://aeszter01.github.io/kollazs/keplink.html">KÉPLINK</a> 
+            <a href="https://aeszter01.github.io/Kollazs/listak.html">lISTÁK</a>
+            <a href="https://aeszter01.github.io/Kollazs/órarendem.html">ÓRAREND</a>
+   </div>
+        
+    <div class="content">
     <h1 style="color:#741cdf;"   >Albók Eszter</h1>
     <h2 style="color: #5A12AD;" >Albók Eszter</h2>
     <h3 style="color:#824AC5">Albók Eszter</h3>
     <h4 style="color:#8B71CD">Albók Eszter</h4>
     <h5 style="color:#BBA3D6">Albók Eszter</h5>
-    <table align="center"; >
+    
         
-        <tr>
-            <td><h2>Kollázs képem:</h2></td>
-        </tr>
+    <p>Kollázs képem:</p>
+    <img src="kollázs.jpg" alt="Ezen a képen látható az én kollázsom" width="500">
 
-        <tr>
-            <td align="center"><img src="kollázs.jpg" alt="Ezen a képen látható az én kollázsom." width=500></td>
-        </tr>
-
-    </table>
-
-    <table align="left"  width="34%"  >
-        <tr>
-            <th>Élj úgy hogyha majd lepereg előtted életed filmje érdemes legyen végignézni. 
-                És én arra biztatom magunkat is hogy tényleg úgy éljük ezt a néhány évtizedet aminek így vége lesz mingyart. 
-                Hogy azt mondjuk a végén hogy vaov erre azért mégegy zsetont bedobnek . 
-                Egy ember életének a végén az egyik legszomorúbb mondat úgy kezdődhet hogy"bárcsak".
-                barcsak mertem volna a saját életemet élni.Bárcsak mertem volna kimutatni az érzéseimet bárcsak kertem volna bocsánatot lett volna bennem elég bátorság barcsak barcsak barcsak . 
-                Az a helyzet hogy az emberek mindig csak készülnek arra hogy éljenek</th>
-        </tr>
-    </table>
-
+    </div>
 </body>
 </html>
